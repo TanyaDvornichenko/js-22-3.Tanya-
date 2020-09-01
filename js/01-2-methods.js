@@ -28,6 +28,8 @@ const playlist = {
       return this.tracks.length;
     },
   };
+
+  
   
   console.log(playlist.getTrackCount());
   
