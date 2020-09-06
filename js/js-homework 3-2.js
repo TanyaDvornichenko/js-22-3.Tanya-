@@ -29,13 +29,11 @@ const countProps = function(obj) {
 
 const countProps = function(obj) {
     'use strict';
-  // Write code under this line
-//   length =+
-  
+  // Write code under this line  length =+
+return Object.keys(obj).length;
+    
 };
 
-
-const keys = Object.keys(countProps);
 
 
 console.log(countProps({})); // 0
