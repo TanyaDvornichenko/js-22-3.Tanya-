@@ -40,6 +40,7 @@ const countTotalSalary = function(employees) {
     for (const value of values) {
     total += value;
   };
+  
   return total;
 
 };
